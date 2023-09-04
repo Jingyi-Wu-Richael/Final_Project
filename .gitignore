@@ -294,6 +294,7 @@ result/*
 data/*
 logfile/*
 kaggle.json
+basicmodel/*
 
 # LSP config files
 pyrightconfig.json
