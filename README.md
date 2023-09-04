@@ -82,7 +82,6 @@ In this repository, we have implemented four state-of-the-art crowd counting app
 ##### Example Command:
 
 ```
-shCopy code
 python main.py \
       --ALstrategy RandomSampling \
       --initseed 10 \
