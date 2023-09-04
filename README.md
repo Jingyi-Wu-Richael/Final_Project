@@ -98,6 +98,10 @@ python main.py \
 
 In this example command, the active learning strategy is set to "RandomSampling". Modify the parameters as needed to suit your specific requirements.
 
+##### Note:
+
+Training the crowd counting model using SGANet requires to change the hyperparameter in the 'parameters.py' file.
+
 # Reference
 
 [1] Zhan, X., Wang, Q., Huang, K., Xiong, H., Dou, D., & Chan, A. B. (2022). A comparative survey of deep active learning. arXiv preprint arXiv:2203.13450.

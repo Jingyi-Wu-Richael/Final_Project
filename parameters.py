@@ -212,7 +212,7 @@ args_pool = {'MNIST':
                   'pretrained': False,
                   'optimizer_args': {'lr': 0.001}},
              'shanghaitechA':
-                 {'n_epoch': 1,
+                 {'n_epoch': 150,
                   'name': 'shanghaitechA',
                   'transform_train': transforms.Compose([transforms.ToTensor(),
                                                          transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -238,6 +238,7 @@ args_pool = {'MNIST':
                   'loader_tr_args': {'batch_size': 1, 'num_workers': 4},
                   'loader_te_args': {'batch_size': 1, 'num_workers': 4},
                   'optimizer': 'Adam',
+                    # 1e-4 for sganet, 1e-5 for other
                   'optimizer_args': {'lr': 1e-5},
                   },
              'JHUCrowd':
